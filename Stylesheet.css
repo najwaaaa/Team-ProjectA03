@@ -1,0 +1,566 @@
+/*---------------- Codingan Frans ----------------*/
+ 
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+ 
+ 
+/*------------ CSS "Header" ---------------*/
+ 
+*{
+    list-style: none;
+    font-family: arial;
+    box-sizing: border-box;
+}
+ 
+ 
+body{
+    margin:0;
+    padding: 0;
+}
+ 
+header{
+    background: rgba(41, 12, 109, 0.85);
+    width: auto;
+    height: 96px;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+}
+ 
+header .container img{
+    width:175px;
+    margin-top: 14px;
+    height: 72px;
+ 
+}
+ 
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+ 
+header .container{
+    display: flex;
+ 
+}
+ 
+.fa-bars{
+    display: none;
+    color: rgba(41, 12, 109, 0.85);
+}
+ 
+ 
+.list a{
+    font-family: "arial narrow";
+    font-size: 16pt;
+    color: white; 
+    margin-left: 24px;
+    padding: 0 20px;
+    text-decoration: none;
+    display: block;
+    transition: 0.5s;
+}
+ 
+.list-header ul{
+    display: flex;
+    position: absolute;
+    right: 10%;
+    margin-top:0;
+    line-height: 96px;
+}
+ 
+.list-header .list a:hover{
+    color: #F9F900;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.1);
+}
+ 
+ 
+/*------------ CSS "Footer" ---------------*/
+ 
+footer{
+    background: rgba(77, 14, 104, 0.85);
+    height: 200px;
+    position: relative;
+}
+ 
+.media-sosial{
+    position: absolute;
+    bottom: 25px;
+}
+ 
+.media img{
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+    opacity: 90%;  
+}
+ 
+.media1 img{
+    width: 60px;
+    height: 40px;
+    margin-right: 15px;
+    margin-bottom: 5px;
+    opacity: 90%; 
+}
+ 
+.logo-ET{
+    width: 190px;
+    height: 79px;
+    margin-top: 25px;
+}
+ 
+.media img:hover{
+    opacity: 100%;
+}
+ 
+.media1 img:hover{
+    opacity: 100%;
+}
+ 
+.footer-list{
+    float: right;
+    
+}
+ 
+.footer-list .list{
+    margin: 31px 0;
+  
+}
+ 
+.footer-list .list a:hover{
+    color: #F9F900;
+    cursor: pointer;
+}
+ 
+ 
+/*---------------- Codingan Najwa (Top-Wrapper) ----------------*/
+ 
+.Top-Wrapper {
+    padding: 180px 0 180px 0;
+    background-image: linear-gradient(rgba(27, 9, 81, 0.5), rgba(27, 9, 81, 0.5)), url(Gambar/Leptop.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    position: relative;
+    margin-bottom: 40px;
+}
+ 
+.Top-wrapper::after {
+    content:"";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(29,16,120,0.5);
+}
+ 
+.Top-Wrapper .container h1 {
+    font-size: 60pt;
+    color: white;
+    padding-bottom: 15px;
+ 
+}
+ 
+.Top-Wrapper .container p {
+    color:white;
+    font-size: 23pt;
+    margin-bottom:100px;
+}
+ 
+.btnn {
+    padding: 20px 40px;
+    color: white;
+    display: inline-block; 
+    border-radius:10px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+ 
+.signupp {
+    background-color:rgba(242, 206, 28, 0.9);
+    font-family: arial;
+    font-size:15pt;
+    margin-left:65px;
+}
+ 
+.openn {
+    font-family: arial;
+    font-size:15pt;
+    margin-right:60px;
+    background-color:rgb(255, 99, 71, 0.9);
+ 
+}
+ 
+.signupp:hover{
+    background-color:rgba(242, 206, 28, 1);
+}
+ 
+.openn:hover{
+    background-color:rgb(255, 99, 71, 1);
+}
+ 
+ 
+/*---------------- Codingan Deafani (Cabang-ET) ----------------*/
+ 
+.Cabang-ET .container{
+    margin: 80px auto;
+    text-align: center;
+}
+ 
+.Cabang-ET .container h1{
+    margin-bottom: 25px;
+    font-weight: normal;
+    font-size: 35px;
+}
+ 
+.ci-s{
+    display: flex;
+}
+ 
+.ci-s .contents-item{
+    width: 33%;
+    text-align: center;
+    margin: 0 auto;
+}
+ 
+.ci-s .contents-item p{
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: black;
+}
+ 
+.ci-s .contents-item button {
+    font-size: 15px;
+    background: rgb(40, 199, 183);
+    color: white;
+    border: rgb(131, 131, 131) 2px solid;
+    border-radius: 5px;
+    padding: 12px 24px;
+    margin-top: 5px;
+    box-shadow: 0 8px rgb(32, 180, 165);
+  }
+ 
+  .ci-s .contents-item button:hover {
+      cursor: pointer;
+  }
+ 
+  .ci-s .contents-item button:active {
+      box-shadow: none;
+      margin-top: 8px;
+      transition: 0.1s;
+  }
+ 
+  .Cabang-ET .container h1:after{
+    content: '';
+    height: 2px;
+    background-color: black;
+    margin: auto;
+    display: block;
+    width: 50%;
+    margin-top: 6px;
+  }
+ 
+/*-------------- Codingan Habibi (Mengapa-ET) ---------------*/
+ 
+.Mengpa-ET .container {
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+}
+ 
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+ 
+.col {
+    width: 100%;
+    text-align: center;
+    margin: 0 21px;
+}
+ 
+.title {
+    text-align: center;
+    margin-bottom: 25px;
+}
+ 
+.title h1 {
+    font-weight: normal;
+    font-size: 35px;
+    color: black;
+}
+ 
+.title hr {
+    border-top: 0;
+    border-bottom: 2pt solid #000;
+    width: 50%;
+    margin-bottom: 40px;
+}
+ 
+.card {
+    height: 300px;
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border: 1px solid #000;
+    border-radius: 21px;
+    display: flex;
+    flex-direction: column;
+}
+ 
+.image {
+    height: 40%;
+    padding: 7%;
+    border-top-left-radius: 21px;
+    border-top-right-radius: 21px;
+}
+ 
+.content {
+    height: 60%;
+    padding: 21px 0;
+    box-shadow: 0px 0 10px rgba(0, 0, 0, 0.2);
+    border-bottom-left-radius: 21px;
+    border-bottom-right-radius: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.des-mengapa{
+    font-size: 20pt;
+}
+ 
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+ 
+ 
+/*-------------- Codingan Deby (Program-ET) ---------------*/
+ 
+.main {
+    /*padding: 10px 80px;*/
+    border-bottom: black;
+    width: 80%;
+    margin: 0 auto;
+  }
+ 
+.row-main{
+    flex-wrap: wrap;
+    display: flex;
+    
+}
+ 
+.elemet-induk img{
+    background-color: #fae0a8;
+    padding: 8px 15px;
+    border-radius: 10px;
+}
+   
+  .copy-container h1 {
+    font-size: 35px;
+    font-weight: normal;
+    padding-bottom: 8px;
+    border-bottom: 2pt solid #000;
+    width: 50%;
+    margin:70px 0 20px 0;
+  }
+   
+ .main .contents {
+    /*height: 500px;*/
+    margin-top: 40px;
+ 
+  }
+   
+  .section-title {
+     border-bottom: 2px solid #000000;            
+     font-size: 28px;            
+     padding-bottom: 15px;            
+     margin-bottom: 50px;
+  }
+   
+  .contents-item {
+    /*margin-right: 35px;
+    margin-bottom: 30px;*/
+    color: #ffffff;
+    text-align: justify;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    
+  }
+   
+.terserah h4{
+    padding-top: 8px;
+    padding-bottom: 4px;
+}
+ 
+.terserah{
+    margin-left: 15px;
+}
+ 
+.terserah p{
+    font-size: 15px;
+}
+ 
+.tombol-main{
+    flex-direction: column;
+}
+   
+  .btn-wrapper{            
+ 
+      background-color: rgba(255, 255, 255, 0.9);
+      margin: 18px 10px ;
+      padding: 10px 10px;
+      border-radius: 10px; 
+      opacity: 1; 
+      /*display: block;*/
+      padding-bottom: 30px;
+      
+  }
+   
+  .dis-img {
+      display: flex;
+      border-bottom:black;
+  }
+         
+  .dis-img img {
+      width: 30px;
+      height: 30px;
+      margin-right: 10px;
+      border-radius: 0%;
+  }
+  .dis-img s{
+      padding-top:0;
+      margin-top: 0;
+  }
+                
+  .btn-wrapper h4 {
+      color: black;
+      border-color: black;
+      font-size: 20px;
+     }
+         
+  .btn-wrapper u {
+         border-bottom: black;
+     }
+  .btn-wrapper p {            
+      color:#5f5a5a;  
+      font-size: 18px;
+      
+            
+    }
+  .btn-wrapper S {
+      color:rgb(0, 0, 0)
+    }
+    
+/*    
+  .Cabang-ET .container{
+      margin: 0px auto;
+      text-align: center;
+  }
+   
+  .Cabang-ET .container h1{
+      margin-bottom: 25px;
+      font-weight: normal;
+      font-size: 35px;
+  }
+   
+  .ci-s{
+      display: flex;
+  }
+   
+  .contents-item button {
+      font-size: 15px;
+      background: rgb(40, 199, 183);
+      color: white;
+      border: rgb(131, 131, 131) 2px solid;
+      border-radius: 5px;
+      padding: 12px 24px;
+      margin-top: 5px;
+      box-shadow: 0 8px rgb(32, 180, 165);
+    }
+   
+    .contents-item button:hover {
+        cursor: pointer;
+    }
+   
+    .contents-item button:active {
+        box-shadow: none;
+        margin-top: 8px;
+        transition: 0.1s;
+    }
+   
+    .Cabang-ET .container h1:after{
+      content:'';
+      height: 2px;
+      background-color: black;
+      margin: auto;
+      display: block;
+      width: 50%;
+      margin-top: 6px;
+    }
+  */
+  
+  
+  .signup {
+      background-color:rgba(242, 206, 28, 0.9);
+      font-size: 12pt;
+      margin-left: 65px;
+ 
+  }
+  /*.sign {            
+      background-color: #f88104;   
+      margin-bottom: 5px;
+      margin-top: 0px;
+      border-bottom: none;
+    }*/
+   
+   .program {
+       background-color: rgb(218, 12, 12);
+       border-bottom: none;
+ 
+   }
+   
+   .btn {            
+      padding: 8px 14px;            
+      color: white;            
+      display: block;            
+      opacity: 0.8;            
+      border-radius: 5px;
+      text-decoration: none;
+      margin: 0 auto;          
+     }      
+     
+     .daftar {
+        background-color:rgba(242, 206, 28, 0.9);
+        font-family: arial;
+        font-size:15pt;
+        margin-left:65px;
+    }
+     .btn:hover {
+       opacity: 1;
+     }
+   
+     .elemet-induk {
+         display: flex;
+         
+     }
+  
+.tombol-main a{
+    margin: 12px 0;
+}
+ 
+ 
